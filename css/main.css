@@ -166,7 +166,7 @@ top: -20px;
 }
 .landing .intro-text p{
     margin: 0px 0 10px 0;
-    line-height: 1.5em;
+    line-height: 1.0em;
 }
 .landing .intro-text button{
     cursor: pointer;
@@ -188,6 +188,10 @@ top: -20px;
 .adventures .container{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 20px;
+}
+.adventures .container p{
+    text-align: left;
 }
 .adventures .container .adv{
     margin: 30px 10px;
@@ -202,7 +206,7 @@ margin: 30px;
 /* end: adventures */
 /* start: services */
 .services .services-content{
-    padding: 60px 0;
+    padding: 60px 15px;
     position:relative;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
@@ -234,6 +238,9 @@ margin: 30px;
 }
 .services .services-content img{
     width: 350px;
+}
+.services .services-content p{
+    text-align: left;
 }
 
 @media (max-width: 767px){
@@ -271,7 +278,6 @@ margin: 30px;
     
 }
 .portfolio .portfolio-content img{
-/* adapt img to grid*/
     width: 300px;
     height: 280px;
 }
@@ -283,6 +289,7 @@ margin: 30px;
 }
 .portfolio .portfolio-content .cards p{
     line-height: 1em;
+    text-align: left;
 }
 /* end: portfolio*/
 
