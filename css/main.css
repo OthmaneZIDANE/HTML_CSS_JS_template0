@@ -271,8 +271,9 @@ margin: 30px;
     
 }
 .portfolio .portfolio-content img{
-    width: 350px;
-    height: 300px;
+/* adapt img to grid*/
+    width: 300px;
+    height: 280px;
 }
 .portfolio .portfolio-content .cards{
     text-align: center;
